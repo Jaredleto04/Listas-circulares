@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas circulares</title>
+</head>
+<body>
+    <form style="font-size: 20px">
+        <div style="margin: 50px 200px 50px 200px">
+            <div id="acciones" style="margin: 10px 200px 10px 200px">
+                <label for="numero">Rutas de transporte :</label><br>
+            </div>
+            <div style="margin: 50px 200px 10px 200px">
+<h1>Paradas de autobus</h1>
+<form>
+    <label for='nombrebase'>
+        Nombre de la base:<br><input type='text' id='nombrebase'>
+        <br>
+    </label>
+    <label for='minutos'>
+        Minutos de tardanza a la base:<br><input type='text' id='minutos'>
+        <br>
+    </label>
+    <br>
+    <button type='button' id='btnCrear'>Guardar</button>
+    <button type='button' id='btnListar'>Listar</button>
+    <button type='reset'>Cancelar</button>
+</form><br>
+<div id="resultados"></div>
+<div style="margin: 10px 200px 10px 200px"></div>
+<h1>Seccion para buscar y Eliminar</h1>
+<form>
+    <label for="buscarbase">
+        Introduce el nombre de la base a buscar o eliminar:<br><input type="text" id="buscarbase">
+    </label><br><br>
+    <button type='button' id='btnBuscar'>Buscar</button>
+    <button type='button' id='btnEliminar'>Eliminar</button>
+    <button type="reset">Cancelar</button>
+</form><br><br>
+<div id="resultados2"></div><br><br>
+<div style="margin: 10px 200px 10px 200px"></div>
+<h1>Crear tarjeta de recorrido</h1>
+<form>
+    <label for="Basei">
+        Base donde desea iniciar:<br><input type="text" id="Basei"><br><br>
+    </label>
+    <label for="Horai">
+        Hora inicial: <br><input type="text" style="width: 35px;height: 20px;" id="Horai"> : 
+    </label>
+    <label for="Mini">
+        <input type="text" style="width: 35px;height: 20px;" id="Mini"><br><br>
+    </label>
+    <label for="Horaf">
+        Hora final:<br><input type="text" style="width: 35px;height: 20px;" id="Horaf"> :
+    </label>
+    <label for="Minf">
+        <input type="text" style="width: 35px;height: 20px;"  id="Minf">
+    </label><br><br>
+    <button type="button" id='btncrear2'>Crear recorrido</button>
+    <button type="reset">Cancelar</button>
+</form><br><br>
+<div id="resultados2.5"></div>
+<div id="resultados3"></div>
+<script src="cir2.js"></script>
